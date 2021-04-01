@@ -1,0 +1,22 @@
+{
+    "blogs": [
+        {
+            "title": "My first text in my-blog",
+            "body": "Text here",
+            "author": "Susanne",
+            "id": 1
+        },
+        {
+            "title": "My first text in my-blog",
+            "body": "Text here",
+            "author": "Susanne",
+            "id": 2
+        },
+        {
+            "title": "My first text in my-blog",
+            "body": "Text here",
+            "author": "Susanne",
+            "id": 3
+        }
+    ]
+}
