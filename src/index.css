@@ -44,6 +44,10 @@ body {
   padding: 20px;
 }
 
+a:visited {
+  color: #f1356d;
+}
+
 /* blog previews / list */
 .blog-preview {
   padding: 10px 6px;
@@ -90,24 +94,24 @@ body {
 }
 
 /* create new blog form */
-.create {
+.form {
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
 }
 
-.create label {
+.form label {
   text-align: left;
   display: block;
 }
 
-.create h2 {
+.form h2 {
   font-size: 20px;
   color: #f1356d;
   margin-bottom: 30px;
 }
 
-.create input, .create textarea, .create select {
+.form input, .create textarea, .create select {
   width: 100%;
   padding: 6px 10px;
   margin: 10px 0;
@@ -116,7 +120,7 @@ body {
   display: block;
 }
 
-.create button {
+.form button {
   background: #f1356d;
   color: #fff;
   border: 0;

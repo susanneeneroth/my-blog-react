@@ -6,6 +6,7 @@ import AddBlog from './components/AddBlog';
 import About from './pages/About'
 import Contact from './pages/Contact';
 import Details from './components/Details';
+import LoginPage from './pages/LoginPage';
 
 
 function App() {
@@ -15,6 +16,9 @@ function App() {
         <Navbar />
         <div className="content">
           <Switch> 
+          <Route exact path="/loginpage">
+              <LoginPage />
+            </Route>
             <Route exact path="/">
               <Home />
             </Route>
