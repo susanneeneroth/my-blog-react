@@ -21,7 +21,7 @@ const LoginPage = () => {
     }
 
     return ( 
-        <div className="form">
+        <div className="create">
             <h2>Login page</h2>
             <form onSubmit={handleSubmit}>
             <label>Email: </label>
