@@ -1,7 +1,14 @@
+import List from '../components/List';
+import useFetch from '../useFetch'
+
 const Home = () => {
+    const {data: blogs, isPending, error} = useFetch('http://localhost:8000/blogs');
+
     return ( 
-        <div>
-            <h2>Home</h2>
+        <div className="home">
+            {error && <div>{ error }</div>}
+            {isPending && <div>Loading...</div>}
+            {blogs && <List blogs={blogs} title="All blogs" />}
         </div>
      );
 }
