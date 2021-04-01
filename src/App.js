@@ -3,8 +3,8 @@ import Home from './pages/Home';
 import Navbar from './components/Navbar'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import AddBlog from './components/AddBlog';
-import About from './components/About';
-import Contact from './components/Contact';
+import About from './pages/About'
+import Contact from './pages/Contact';
 import Details from './components/Details';
 
 
