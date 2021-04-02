@@ -147,7 +147,7 @@ body {
   color: #fff;
   font-size: 1rem;
   border: 0;
-  padding: 12px;
+  padding: 9px;
   border-radius: 8px;
   cursor: pointer;
   margin-top: 20px;
@@ -156,14 +156,14 @@ body {
 /* not-found page */
 
 .not-found h2 {
-  font-size: 40px;
+  font-size: 30px;
   color: #f1356d;
   margin-bottom: 10px;
 }
 
 .not-found p {
-  margin-top: 0px;
-  font-size: 30px;
+  margin: 20px 0;
+  font-size: 20px;
 }
 
 .not-found button {
@@ -171,7 +171,7 @@ body {
   color: #fff;
   font-size: 1rem;
   border: 0;
-  padding: 12px;
+  padding: 9px;
   border-radius: 8px;
   cursor: pointer;
 }
