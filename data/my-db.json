@@ -9,8 +9,8 @@
     },
     {
       "title": "Testar igen",
-      "short": "Short thexat",
-      "body": "Liogntehak",
+      "short": "This is the short introduction text, before Read more. I will try and fix this in a better way with Max length or something like that.",
+      "body": "This is the body of the text, that only should show up on the certain blog text page.",
       "author": "Svea O",
       "id": 4
     }
