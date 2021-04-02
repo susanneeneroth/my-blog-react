@@ -9,10 +9,11 @@ const List = ({blogs, title, handleDelete}) => {
                <div className="blog-preview" key={blogs.id}>
                   <Link to={`/blogs/${blogs.id}`}>
                     <h2>{blogs.title}</h2>
-                      <p>{blogs.body}</p>
+                    <p>{blogs.short}</p>
+                      <p>Read more...</p>
                       <p className="blog-author">Written by {blogs.author}</p>
                   </Link>
-                  
+                 
                </div>
            ))}
         </div>

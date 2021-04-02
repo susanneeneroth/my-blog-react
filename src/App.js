@@ -7,6 +7,7 @@ import About from './pages/About'
 import Contact from './pages/Contact';
 import Details from './components/Details';
 import LoginPage from './pages/LoginPage';
+import NotFound from './components/NotFound';
 
 
 function App() {
@@ -33,6 +34,9 @@ function App() {
             </Route>
             <Route path="/contact">
               <Contact />
+            </Route>
+            <Route path="*">
+              <NotFound />
             </Route>
           </Switch>
         </div>

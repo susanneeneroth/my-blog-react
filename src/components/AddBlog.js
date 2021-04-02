@@ -3,6 +3,7 @@ import { useHistory } from 'react-router-dom';
 
 const AddBlog = () => {
     const [title, setTitle] = useState('');
+    const [short, setShort] = useState('');
     const [body, setBody] = useState('');
     const [author, setAuthor] = useState('');
     const [isPending, setIsPending] = useState(false);
@@ -10,7 +11,7 @@ const AddBlog = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const blog = { title, body, author};
+        const blog = { title, short, body, author};
 
         setIsPending(true);
 
@@ -37,6 +38,12 @@ const AddBlog = () => {
                   value={title}
                   onChange={(e) => setTitle(e.target.value)}
                 />
+                <label>Short</label>
+                <textarea
+                  required
+                  value={short}
+                  onChange={(e) => setShort(e.target.value)}
+                ></textarea>
                 <label>Text</label>
                 <textarea
                   required

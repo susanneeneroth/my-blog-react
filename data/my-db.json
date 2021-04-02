@@ -1,10 +1,18 @@
 {
   "blogs": [
     {
-      "title": "My second text",
-      "body": "Text here",
-      "author": "Susanne",
-      "id": 2
+      "title": "This is a training project in reactjs",
+      "short": "I am studying Front End Development at Medieinstitutet 2020-2022, and this is an excercise in React. Trying out making a Blog webpage.",
+      "body": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam placeat laudantium accusamus molestiae iste eum officiis expedita debitis ullam, quod a enim provident reprehenderit. Quis voluptates libero exercitationem mollitia nesciunt?",
+      "author": "Susanne Eneroth",
+      "id": 1
+    },
+    {
+      "title": "Testar igen",
+      "short": "Short thexat",
+      "body": "Liogntehak",
+      "author": "Svea O",
+      "id": 4
     }
   ]
 }
