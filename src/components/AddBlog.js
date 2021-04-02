@@ -38,7 +38,7 @@ const AddBlog = () => {
                   value={title}
                   onChange={(e) => setTitle(e.target.value)}
                 />
-                <label>Short</label>
+                <label>Short introduction</label>
                 <textarea
                   required
                   value={short}
