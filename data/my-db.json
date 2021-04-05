@@ -2,15 +2,15 @@
   "blogs": [
     {
       "title": "This is a training project in reactjs",
-      "short": "I am studying Front End Development at Medieinstitutet 2020-2022, and this is an excercise in React. Trying out making a Blog webpage.",
-      "body": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam placeat laudantium accusamus molestiae iste eum officiis expedita debitis ullam, quod a enim provident reprehenderit. Quis voluptates libero exercitationem mollitia nesciunt?",
+      "short": "I am studying Front End Development at Medieinstitutet 2020-2022, and this is a personal learning project in React.",
+      "body": "My aim is to learn as much as possible about ReactJS by building a blog page with different functions. Go to About page to read more about the project.",
       "author": "Susanne Eneroth",
       "id": 1
     },
     {
-      "title": "Testar igen",
+      "title": "Database fix",
       "short": "This is the short introduction text, before Read more. I will try and fix this in a better way with Max length or something like that.",
-      "body": "This is the body of the text, that only should show up on the certain blog text page.",
+      "body": "This is the body of the text, that only should show up on the blogs seperate text page.",
       "author": "Svea O",
       "id": 4
     }

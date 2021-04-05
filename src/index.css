@@ -113,6 +113,19 @@ input:focus,
   color: rgb(75, 89, 103);
 }
 
+/* Content and titles */
+
+.page-title {
+  font-size: 1.5rem;
+  color: rgb(98, 115, 131);
+}
+
+.page-subtitle {
+  font-size: 1.2rem;
+  color: rgb(98, 115, 131);
+  text-align: left;
+}
+
 .content {
   max-width: 600px;
   margin: 40px auto;
@@ -184,11 +197,6 @@ input:focus,
 }
 
 /* Blog list on Homepage */
-.page-title {
-  font-size: 1.5rem;
-  color: rgb(98, 115, 131);
-}
-
 .blog-list p {
   margin: 20px 0;
   text-align: left;
