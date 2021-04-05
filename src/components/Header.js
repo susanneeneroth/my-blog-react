@@ -1,7 +1,7 @@
 const Header = () => {
     return ( 
         <header>
-            <h1>React blog</h1>
+            <h1>React project - Susanne Eneroth</h1>
             <form id="form">
                 <input type="text" id="search" placeholder="Blog search" />
                 <button className="header-btn">Search</button>

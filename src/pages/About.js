@@ -8,7 +8,7 @@ const About = () => {
             <p>So far I have used json server to be able to use a local database with fetch, included a function to add blogs and delete blogs to and from the database file, which is save as a .db file in the projects directory.</p>
             
             <h3 className="page-subtitle">Git Kraken and GitHub</h3>
-            <p>I am also using Git Kraken together with Git Hub to be able to do backups to a repository on Git Hub. I work in a dev branch until I am finished with the project. I have not created feature branches so far, since I am the only one working on the project, but I might try it just to get exercise in it later on.   
+            <p>I am also using Git Kraken together with GitHub to be able to do backups to a repository on GitHub. I work in a dev branch until I am finished with the project. I have not created feature branches so far, since I am the only one working on the project, but I might try it just to get exercise in it later on.   
             </p>
 
             <h3 className="page-subtitle">Add and delete</h3>
