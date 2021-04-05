@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useHistory } from 'react-router-dom';
+import Login from './Login/Login'
 
 const AddBlog = () => {
     const [title, setTitle] = useState('');
@@ -8,6 +9,7 @@ const AddBlog = () => {
     const [author, setAuthor] = useState('');
     const [isPending, setIsPending] = useState(false);
     const history = useHistory();
+    const [token, setToken] = useState();
 
     const handleSubmit = (e) => {
         e.preventDefault();
