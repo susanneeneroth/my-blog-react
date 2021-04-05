@@ -7,6 +7,75 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Header */
+
+header {
+  width: 100vw;
+  height: 200px;
+  background-image: url(https://images.unsplash.com/photo-1607178289618-21847c3f7cc0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2251&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0 60px;
+  position: relative;
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+header * {
+  z-index: 1;
+}
+
+header h1 {
+  margin: 0 0 30px;
+}
+
+form input {
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-right: 5px;
+  border-radius: 4px;
+  width: 300px;
+}
+
+.header-btn {
+  background-color: rgb(98, 115, 131);
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+.header-btn:hover {
+  background-color: rgb(75, 89, 103);
+}
+
+input:focus,
+.header-btn:focus {
+  outline: none;
+}
+
+/* Navbar */
+
+.logo-link a{
+  text-decoration: none;
+}
+
 .navbar {
   padding: 20px;
   display: flex;
@@ -17,7 +86,7 @@ body {
 }
 
 .navbar h1 {
-  color: #f1356d;
+  color: rgb(98, 115, 131);
 }
 
 .navbar-links {
@@ -28,15 +97,15 @@ body {
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
-  color: #f1356d;
+  color: rgb(98, 115, 131);
 }
 
 .navbar-links a:visited {
-  color: #f1356d;
+  color: rgb(98, 115, 131);
 }
 
 .navbar-links a:hover {
-  color: #9d2247;
+  color: rgb(75, 89, 103);
 }
 
 .content {
@@ -53,14 +122,14 @@ body {
 }
 
 .blog-preview:hover {
-  background-color: rgb(252, 233, 236);
+  background-color: rgb(247, 247, 247);
   padding: 10px 10px;
   border-radius: 5px;
 }
 
 .blog-preview h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: rgb(98, 115, 131);
   margin-bottom: 5px;
   text-align: left;
 }
@@ -79,7 +148,7 @@ body {
 
 .blog-details h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: rgb(98, 115, 131);
   margin-bottom: 10px;
   text-align: left;
 }
@@ -96,7 +165,7 @@ body {
 }
 
 .blog-details button {
-  background-color: #f1356d;
+  background-color: rgb(98, 115, 131);
   color: #ffffff;
   border: 0;
   padding: 8px;
@@ -110,40 +179,46 @@ body {
 }
 
 /* Blog list on Homepage */
+.page-title {
+  font-size: 1.5rem;
+  color: rgb(98, 115, 131);
+}
+
 .blog-list p {
   margin: 20px 0;
   text-align: left;
 }
 
-/* create new blog form */
-.create {
+/* form-styling new blog form */
+.form-styling {
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
 }
 
-.create label {
+.form-styling label {
   text-align: left;
   display: block;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: rgb(98, 115, 131);
 }
 
-.create h2 {
-  font-size: 20px;
-  color: #f1356d;
-  margin-bottom: 30px;
-}
-
-.create input, .create textarea, .create select {
+.form-styling input, .form-styling textarea, .form-styling select {
   width: 100%;
-  padding: 6px 10px;
-  margin: 10px 0;
+  padding: 10px 10px;
+  margin: 5px 0 0 0;
   border: 1px solid #ddd;
   box-sizing: border-box;
   display: block;
 }
 
-.create button {
-  background: #f1356d;
+.form-styling textarea {
+ border-radius: 5px;
+}
+
+.form-styling button {
+  background: rgb(98, 115, 131);
   color: #fff;
   font-size: 1rem;
   border: 0;
@@ -151,6 +226,16 @@ body {
   border-radius: 8px;
   cursor: pointer;
   margin-top: 20px;
+}
+
+.form-styling button:hover {
+  background-color: rgb(75, 89, 103);
+}
+
+/* Contact page */
+
+.contact-text {
+  color: rgb(98, 115, 131);
 }
 
 /* not-found page */

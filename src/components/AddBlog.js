@@ -28,8 +28,8 @@ const AddBlog = () => {
 
 
     return ( 
-        <div className="create">
-            <h2>Add blog</h2>
+        <div className="form-styling">
+            <h2 className="page-title">Add blog</h2>
             <form onSubmit={handleSubmit}>
                 <label>Title</label>
                 <input 

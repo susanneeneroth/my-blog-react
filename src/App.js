@@ -8,12 +8,14 @@ import Contact from './pages/Contact';
 import Details from './components/Details';
 import LoginPage from './pages/LoginPage';
 import NotFound from './components/NotFound';
+import Header from './components/Header';
 
 
 function App() {
   return (
     <Router>
       <div className="App">
+        <Header />
         <Navbar />
         <div className="content">
           <Switch> 
