@@ -1,1 +1,3 @@
 # my-blog-react
+
+# Training project in react - work in progress...
